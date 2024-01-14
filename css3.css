@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: fontnav;
+    src: url(font/Montserrat-Medium.ttf);
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+.container{
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 26px;
+    margin-top: 48px;
+    width: 120px;
+    height: 26px;
+}
+.logo>img{
+    width: 120px;
+    height: 26px;
+}
+nav{
+    margin-top: 52px;
+}
+nav>ul>li{
+    margin-left: 35px;
+    display: inline;
+}
+a{
+    font-family: fontnav;
+    /* font-family: 'Montserrat', sans-serif; */
+    text-decoration: none;
+    color: rgba(255, 158, 158, 1);
+}
+.button{
+    margin-top: 41px;
+    margin-right: 32px;
+    width: 130px;
+    height: 40px;
+}
+.button>button{
+    background-color: rgba(241, 120, 182, 1);
+    border: none;
+    border-radius: 6px;
+    width: 130px;
+    height: 40px;
+}
+.banner{
+    width: 100%;
+    height: 424px;
+}
+.banner>img{
+    width: 100%;
+    height: 424px;
+}
+.content{
+    width: 100%;
+    display: flex;
+}
+.Product{
+    text-align: center;
+    position: relative;
+    margin: 50px;
+    width: 30%;
+    height: 450px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+h5,h6{
+    margin-left: 20px;
+    text-align: left;
+}
+.Product>img{
+    width: 100%;
+    height: 323px;
+}
+i{
+    position: absolute;
+    top:16px;
+    right: 16px;
+    width: 20px;
+    height: 20px;
+
+}
+.Product>button{
+    height: 35px;
+    width: 144px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(234, 198, 198, 1);
+}

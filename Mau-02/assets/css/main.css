@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: fontchu;
+}
+@font-face {
+  font-family: fontchu;
+  src: url(/font/Montserrat-Medium.ttf);
+}
+#main {
+  padding: 16px 16px 0 16px;
+}
+
+.header {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .menu {
+  display: flex;
+} */
+
+.list-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.item-menu {
+  font-size: 16px;
+  /* font-weight: 400; */
+  padding: 0 32px;
+}
+
+.item-menu:hover {
+  color: #ffa800;
+  cursor: pointer;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  
+}
+
+.btn-register {
+  width: 180px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-register:hover {
+  background: #ffa800;
+  color: #fff;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Content */
+.content {
+  margin: 64px 0 78px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-content {
+  width: 350px;
+  height: 598px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-content {
+  width: 350px;
+  height: 321px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.img-content:hover {
+  transform: scale(1.2) rotate(30deg);
+  cursor: pointer;
+}
+
+.title-content {
+  margin: 32px 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.text-des {
+  margin-bottom: 37px;
+  font-size: 20px;
+}
+
+.list-content {
+  width: 350px;
+  height: 130px;
+  padding: 0 21px;
+}
+
+.list-content_item {
+  font-size: 16px;
+}
+
+/* Advertisement */
+/* .advertisement {
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/advertisement.jpg);
+  background-size: cover;
+  margin-bottom: 32px;
+} */
+
+/* footer */
+.footer {
+  height: 100px;
+  background-color: #021a34;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+
+.copy-right {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.input-register {
+  width: 278px;
+  height: 50px;
+  border: 2px solid #ffa800;
+  background: transparent;
+  color: #fff;
+}
+
+.regiter {
+    display: flex;
+    align-items: center;
+}
+.input-register::placeholder {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Montserrat";
+  padding-left: 25px;
+}
+
+.btn-register-footer {
+  font-size: 16px;
+  width: 120px;
+  height: 52px;
+  background: #ffa800;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 17px;
+}

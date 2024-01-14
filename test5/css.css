@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 1380px;
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+.logo{
+    background: rgb(200, 212, 243);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.banner .img{
+    width: 1380px;
+    height: 500px;
+    object-fit: cover;
+}
+.menu{
+    display: flex;
+    background: black;
+    height: 80px;
+    margin-bottom: 10px;
+
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.menu ul li a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fffefe;
+    font-size: 20px;
+}
+form{
+    margin-left: 300px;
+    margin-top: 20px;
+
+}
+form button{
+    background: rgb(12, 12, 136);
+    color: #fffefe;
+    width: 90px;
+    border: 0.5px solid #fffefe;
+}
+input{
+    height: 40px;
+    width: 250px;
+}
+
+.content{
+    display: flex;
+    margin-top: 70px;
+   
+}
+.product-1{
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ;
+}
+.product-2{
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.product-3{
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ;
+}
+.product-1:hover .w13{
+    bottom: 0;
+}
+.product-2:hover .w13{
+    bottom: 0;
+}
+.product-3:hover .w13{
+    bottom: 0;
+}
+.content h3{
+    font-size: 22px;
+    width: 300px;
+}
+button{
+    width: 80px;
+    height: 40px;
+}
+.product-1 button{
+    width: 150px;
+    background: rgb(26, 26, 189);
+    color: #fffefe;
+    margin-bottom: 10px;
+}
+.product-2 button{
+    width: 150px;
+    background: rgb(26, 26, 189);
+    color: #fffefe;
+    margin-bottom: 10px;
+}
+.product-3 button{
+    width: 150px;
+    background: rgb(26, 26, 189);
+    color: #fffefe;
+    margin-bottom: 10px;
+}
+.w13{
+    text-align: center;
+    background: #fffefe;
+    margin-right: 30px;
+    position: absolute;
+    bottom: -200px;
+    transition: .5s;
+}
+h3{
+    margin-top: 20px;
+    font-size: 25px;
+    color: rgb(109, 9, 9);
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer{
+    margin-top: 40px;
+    background: rgb(23, 23, 209);
+    height:70px;
+    text-align: center;
+    padding-top: 30px;
+    color: #fffefe;
+    font-size: 25px;
+}
+footer:hover{
+    background: green;
+}
+.menu ul li a:hover{
+    color: red;
+}

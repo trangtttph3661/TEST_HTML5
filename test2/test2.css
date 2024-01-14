@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto/Roboto-Black.ttf');
+}
+body{
+    width: 1683px;
+    margin: auto;
+}
+header{
+    padding-top: 20px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+h1{
+    font-family: 'roboto';
+    font-size: 60px;
+    margin-left: 50px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+}
+.menu ul li{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'roboto';
+    font-size: 30px;
+    color: black;
+}
+.menu ul li a:hover{
+    color: green;
+}
+.content{
+    display: flex;
+}
+.product-1{
+    position: relative;
+    overflow: hidden;
+    margin-left: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.img{
+    width: 450px;
+
+}
+.sub{
+    width: 450px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    bottom: -150px;
+    transition: .5s ease-in-out;
+}
+.product-1:hover{
+    transform: scale(1.2);
+}
+.product-1:hover .sub{
+    bottom: 0;
+}
+.sub button{
+    width: 100%;
+    height: 30px;
+    background: black;
+    color: aliceblue;
+}
+footer{
+    background: rgb(12, 12, 110);
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+}
